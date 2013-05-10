@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+a {color:#999; text-decoration:none;}
+a:hover {color:#000; text-decoration:none;}
+.clear{clear:both}
+.clear2{float:left}
+
+
+body{ background:#fafafa;}
+
+#container{width:100%}
+#wrap{margin:0px auto; width:960px}
+
+#header{height:120px;}
+#logo{float:left; height:120px}
+ 
+#header-right-box{float:right; width:300px; height:120px; font-family:"Century Gothic"; color:#BB0000; font-size:12px}
+#header-right-box a:hover a p{color:#BB0000; font-size:12px}
+
+#nav{ height:70px;width:100%;background:#BB0000; margin-bottom:10px}
+
+#banner{width:100%; height:300px;background:#EBEBEB; margin-bottom:10px}
+
+#content-wrap{width:100%;}
+#content{border:1px #F7F7F7 solid;box-shadow: 0 7px 10px rgba(0, 0, 0, 0.7); border-radius: 10px 10px 10px 10px;}
+
+#left-sidebar{float:left;width:250px; padding-left:15px; padding-right:15px}
+
+#left-sidebar h2{color:#6D6D6D; font-size:18px; border-bottom:1px solid #6D6D6D; font-family:"Century Gothic"}
+
+#left-sidebar h3{color:#6D6D6D;font-family:"Century Gothic"; padding-left:15px}
+
+#left-sidebar ul li a{color:#6D6D6D; font-size:12px; border-bottom:1px solid #6D6D6D; font-family:"Century Gothic"}
+
+#right-sidebar{float:left;width:640px; padding-left:15px; padding-right:15px}
+
+#right-sidebar h2{color:#6D6D6D; font-size:18px; border-bottom:1px solid #6D6D6D; font-family:"Century Gothic"}
+
+#footer{ height:200px; background:#3a3a3a;border-radius: 10px 10px 10px 10px}
+#footer-content{padding:10px}
+
+#footer-box{float:left; width:283px; padding:10px; margin-right:10px}
+#footer-box h3{color:#eee;font-family:"Century Gothic"; border-bottom:1px solid #eee}
+
+#footer-box ul li a{color:#eee; font-size:12px; border-bottom:1px solid #eee; font-family:"Century Gothic"}
+
+.feeds_content{ margin: 0px auto;width:1214px}
+
+.table_module h1{ padding:10px; background:#DDD; font-family:"Century Gothic"; color:#39C; text-shadow:3px 3px #333; border: 1px solid #777}
+
+.feed_text{ text-align:left; padding:10px; background:#DDD; font-family:"Century Gothic"; color:#39C; border: 1px solid #777; font-size:16px; width:auto; float:right}
+
+.feed_text1{ text-align:left; padding:10px; background:#DDD; font-family:"Century Gothic"; color:#39C; border: 1px solid #777; font-size:16px; width:auto;}
+
+.feed_box{ padding:10px; background:#F8F8F8; font-family:"Century Gothic"; color:#39C; border: 1px solid #777; font-size:16px; width:350px; border-radius:20px 20px 20px 20px; float:left;height:600px}
+
+.update_feeds_box{ padding:10px; background:#F8F8F8; font-family:"Century Gothic"; color:#39C;font-size:16px; width:1150px;}
+
+
+form input[type=text]{width:200px; height:18px; border:1px solid #888; padding:5px;}
+form input[type=password]{width:200px; height:18px; border:1px solid #888; padding:5px;}
+form input[type=checkbox,name=loginCheckGroup]{padding: 20px; font-size:16px; font-weight:200}
+
+form input[type=textarea]{width:1000px; border-radius:20px 20px 20px 20px; height:80px; border:1px solid #D8D8D8; padding:5px;font-family:Tahoma,"Century Gothic"; font-size:20px}
+
+.button{background:#BB0000;border-radius:10px 10px 10px 10px; font:Tahoma, Geneva, sans-serif; padding:5px; width:auto; color:#f8f8f8; font-size:12px; border: solid thin #DDD;text-transform:capitalize; font-family:"Century Gothic"}
+.button:hover{background:#000;color:#f8f8f8;}
+.table_module{box-shadow: 0 7px 10px rgba(0, 0, 0, 0.7);background:#eee; border-radius:10px 10px 10px 10px; border: 1px solid #DDD; text-align:center; padding:20px; font-size:18px}
+table td {font-size:12px; text-transform:capitalize; font-family:"Century Gothic"}
